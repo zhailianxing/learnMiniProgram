@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "navigationBarTitleText": "胖胖小程序",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#000000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/img/index.png",
+        "selectedIconPath": "assets/img/index_active.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "分类",
+        "iconPath": "assets/img/category.png",
+        "selectedIconPath": "assets/img/category_active.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
