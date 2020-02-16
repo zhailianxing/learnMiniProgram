@@ -6,13 +6,28 @@ Page({
    */
   data: {
     isActive: false,
+    isShow: false,
+    score: 0,
+    
   },
+
+  btn3Click: function (options) {
+    this.setData({
+      score: this.data.score + 10
+    })
+  },
+  
   btnClick: function (options) {
     this.setData({
       isActive: true
     })
-    console.log("yes")
   },
 
- 
+  btn2Click: function (options) {
+    this.setData({
+      isShow: true
+    })
+  },
+
+
 })

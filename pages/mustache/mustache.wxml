@@ -5,7 +5,17 @@
 
 
 <button bindtap="btnClick">点击加入颜色</button>
+
 <text class='mytext {{isActive? "active":""}}'>哈哈哈</text>
 
+
+<button bindtap="btn2Click">点击显示if标签</button>
+<text wx:if="{{isShow}}">if标签</text>
+
+<button bindtap="btn3Click">给成绩加20分</button>
+<text wx:if="{{score > 90}}">成绩优秀</text>
+<text wx:elif="{{score > 80}}">成绩良好</text>
+<text wx:elif="{{score > 60}}">成绩一般</text>
+<text wx:else>成绩很差</text>
 
 
