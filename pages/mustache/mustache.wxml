@@ -1,0 +1,11 @@
+<!--pages/mustache/mustache.wxml-->
+
+
+
+
+
+<button bindtap="btnClick">点击加入颜色</button>
+<text class='mytext {{isActive? "active":""}}'>哈哈哈</text>
+
+
+
