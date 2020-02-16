@@ -1,0 +1,10 @@
+<!--pages/text/text.wxml-->
+<text>pages/text/text.wxml</text>
+
+
+<text>哈哈\n</text>
+<text>嗯嗯嗯\n</text>
+
+<text >3333默认是：长安不可以被选中\n</text>
+<text selectable>1111长按是否可以选中\n</text>
+<text selectable='true'>2222长按是否可以选中\n</text>

@@ -1,0 +1,19 @@
+<!--
+1.image内没有文本内容，所以可以用单标签或双标签。单标签需要闭合:  <image />
+2.不管image的src是否有内容以及屏幕大小，src默认宽高是： 320px*240px
+3.image是行内元素
+-->
+<!-- <image />
+<text>111</text> -->
+
+<!-- 绝对路径：从/开始-->
+<image src="/image/location.png" show-menu-by-longpress></image>
+
+<!-- 从相册选择照片或者拍照片-->
+<button bindtap="onChooseImage">选择图片</button>
+<image show-menu-by-longpress src="{{chooseImage}}"></image>
+
+<!-- lazy-load:惰性加载-->
+<view wx:for="{{2}}">  <!-- 循环2次 -->
+  <image src="/image/location.png" lazy-load ></image>
+</view>

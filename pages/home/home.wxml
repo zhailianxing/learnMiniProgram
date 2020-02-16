@@ -1,9 +1,4 @@
 <!--pages/home/home.wxml-->
-<text class="title">这是pages/home/home.wxml</text>
-<button id="btn1" size="mini">这是按钮</button>
-
-
-
 <view bindtap="clickeEvent">哈哈哈</view>
 
 <view wx:for="{{list}}">{{item.title}}</view>

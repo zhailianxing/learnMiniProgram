@@ -1,0 +1,5 @@
+/* pages/weUI-form/weUIFormLogin.wxss */
+
+@import '../commonXss/weui.wxss';
+
+page,.page{height:100%;}

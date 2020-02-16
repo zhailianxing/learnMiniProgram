@@ -1,0 +1,20 @@
+<!--pages/button/button.wxml-->
+<button>button 块状元素</button>
+
+<button size="mini">行内元素1</button>
+<button size="mini">行内元素2</button>
+
+<button type="default">默认元素</button>
+<button type="primary">基础元素</button>
+<button type="warn">警告元素</button>
+
+<button loading>加载元素1</button>
+<button loading='{{isLoading}}'>通过button.js中控制加载</button>
+
+<button hover-class='pressed'>指定按钮按下去的样式类</button>
+<!-- 
+wxss中的样式
+.pressed {
+  background-color: red;
+  color: white;
+} -->

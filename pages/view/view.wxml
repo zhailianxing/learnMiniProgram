@@ -1,0 +1,21 @@
+<!--pages/view/view.wxml-->
+<text>pages/view/view.wxml</text>
+
+<view>块级元素1 </view>
+<view>块级元素2 </view>
+
+<view class="box1">1111</view>
+
+
+
+
+
+
+
+
+
+<view class="father" hover-class="father_over">
+  <view class="child" hover-class="child_hover" hover-stop-propagation="{{false}}">
+   哈哈哈
+  </view>
+</view>
