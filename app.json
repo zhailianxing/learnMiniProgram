@@ -1,13 +1,16 @@
 {
   "pages": [
+        "pages/useComponents/useComponents",
+        
+    "pages/home/home",
+    "pages/scrollView/scrollView",
+    "pages/wxs/wxs",
     "pages/mustache/mustache",
     "pages/weUI-form/weUIFormLogin",
-    "pages/scrollView/scrollView",
     "pages/image/image",
     "pages/view/view",
     "pages/button/button",
     "pages/text/text",
-    "pages/home/home",
     "pages/index/index",
     "pages/logs/logs"
   ],

@@ -2,3 +2,33 @@
 <view bindtap="clickeEvent">哈哈哈</view>
 
 <view wx:for="{{list}}">{{item.title}}</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 传递参数: 通过"data-*"传递 -->
+<!-- 使用flex布局 -->
+<!-- block没啥大意义，就是作为一块 -->
+<view class="container1">
+  <block wx:for="{{array}}" wx:key="{{index}}">
+    <view class="myitem" bindtap="itemClick" data-index="{{index}}" data-item="{{item}}">
+      {{item}}
+    </view>
+  </block>
+</view>
+
+<!-- 这样的布局效果就不能在一行。牛逼 -->
+<!-- <view class="container1" wx:for="{{array}}" wx:key="{{index}}">
+  <view class="myitem" bindtap="itemClick" data-index="{{index}}" data-item="{{item}}">
+    {{item}}
+  </view>
+</view> -->

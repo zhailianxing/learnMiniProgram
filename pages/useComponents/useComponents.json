@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "com1":"/components/testCom1/testCom1"
+  }
+}

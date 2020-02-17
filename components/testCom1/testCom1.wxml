@@ -1,0 +1,3 @@
+<!--components/testCom1/testCom1.wxml-->
+<view class="title">这是标题</view>
+<view class="zhaiYao">这是摘要，这是摘要</view>

@@ -1,0 +1,13 @@
+<!-- 导入wxs只能使用相对路径 -->
+<wxs src="../../wxs/info.wxs" module="info"/>
+
+<view>{{info.msg}}</view>
+
+<!-- 应用 -->
+<view>{{info.priceFormat(price)}}</view>
+<view>{{info.timeFormat(curTime)}}</view>
+
+
+
+
+

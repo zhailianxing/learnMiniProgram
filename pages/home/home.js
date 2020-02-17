@@ -6,7 +6,17 @@ Page({
   // 2.初始化数据
   data: {
     message: "小伙子可以啊",
-    list: []
+    list: [],
+    array:["上衣","鞋子","裤子"]
+  },
+  
+  itemClick(event){
+    console.log(event)
+    // 获取传递过来的参数
+    console.log(event.currentTarget.dataset.index)
+    console.log(event.currentTarget.dataset.item)
+
+
   },
   //  3.监听wxml中的监听事件
   clickeEvent(){

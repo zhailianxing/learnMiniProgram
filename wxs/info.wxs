@@ -1,0 +1,24 @@
+
+var msg = "success";
+var sum = function(a,b){
+  return a+b;
+}
+
+// 设置浮点数保存几位小数
+function priceFormat(price, number) {
+  var number = number || 2; 
+  return price.toFixed(number);
+}
+// 将时间戳转为可读格式
+function timeFormat(ts) {
+  // todo
+  return ts;
+}
+
+
+module.exports = {
+  msg :msg,
+  sum:sum,
+  priceFormat: priceFormat,
+  timeFormat:timeFormat
+}

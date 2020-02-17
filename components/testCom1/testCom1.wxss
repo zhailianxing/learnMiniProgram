@@ -1,0 +1,6 @@
+/* components/testCom1/testCom1.wxss */
+
+.title {
+  font-size: 30rpx;
+  font-weight: 100;
+}
