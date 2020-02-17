@@ -1,1 +1,13 @@
 /* pages/useComponents/useComponents.wxss */
+
+.red {
+  color: red;
+}
+
+.blue {
+  color:blue;
+}
+
+.yellow {
+  color: yellow;
+}

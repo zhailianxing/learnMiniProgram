@@ -1,5 +1,22 @@
 <!--pages/useComponents/useComponents.wxml-->
 
 
-
+<!-- 1.使用自定义组件 -->
 <com1></com1>
+
+<view>============</view>
+
+
+<!-- 2.页面传递 数据和样式给组件 -->
+<!-- 自定义的组件名字只能是：小写字母，和中划线。 在json配置时要注意 -->
+<!-- <comGetData titleClass="red"></comGetData> -->
+<com content="传递content1" titleclass="blue"></com>
+<com content="传递content222" titleclass="yellow"></com>
+<com content="传递content333" titleclass="red"></com>
+
+<view>============</view>
+<!-- 3.组件传递事件给页面 -->
+<my-event bind:increment="handleIncrement"></my-event>
+<view>count的值是：{{count}}</view>
+
+

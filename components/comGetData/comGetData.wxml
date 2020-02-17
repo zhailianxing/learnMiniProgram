@@ -1,0 +1,5 @@
+
+<!-- class的名字也不能有大写，日了狗了 -->
+<view class="titleclass">这是标题</view>
+<view >无关紧要的内容</view>
+<view >{{content}}</view>

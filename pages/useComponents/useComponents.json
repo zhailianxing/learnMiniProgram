@@ -1,5 +1,9 @@
 {
   "usingComponents": {
-    "com1":"/components/testCom1/testCom1"
+    "com1":"/components/testCom1/testCom1",
+
+    "com": "/components/comGetData/comGetData",
+    
+    "my-event": "/components/my-event/my-event"
   }
 }
