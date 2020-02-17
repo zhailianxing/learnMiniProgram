@@ -1,0 +1,4 @@
+<!--components/my-select/my-select.wxml-->
+
+
+<view>counter的值是:{{counter}}</view>

@@ -28,3 +28,11 @@
 ></tab-control>
 
 
+<view>============</view>
+<!-- 5. page中生成组件对象,通过组件对象直接调用它的方法和data等 -->
+<button size="mini" bindtap="pageClick">点击：page中修改组件中的值</button>
+<my-select id="my-select-id"></my-select>
+
+
+
+
