@@ -1,8 +1,10 @@
 {
   "pages": [
-        "pages/useComponents/useComponents",
         
+    "pages/navigator/navigator",
     "pages/home/home",
+            
+    "pages/useComponents/useComponents",
     "pages/scrollView/scrollView",
     "pages/wxs/wxs",
     "pages/mustache/mustache",
