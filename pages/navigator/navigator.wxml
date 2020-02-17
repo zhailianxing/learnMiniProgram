@@ -4,5 +4,8 @@
 <!-- 不能跳转到tarbar定义的页面，除非指定open-type=switchTab -->
 <navigator url="/pages/home/home">不能跳转到tabbar页</navigator>
  
-
  <navigator url="/pages/scrollView/scrollView">跳转到scrollView页</navigator>
+
+
+ <navigator url="/pages/scrollView/scrollView?id=1">跳转到传递参数</navigator>
+ <view>testPass值是：{{testPass}}</view>
