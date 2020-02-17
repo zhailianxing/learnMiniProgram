@@ -20,3 +20,11 @@
 <view>count的值是：{{count}}</view>
 
 
+
+<view>============</view>
+<!-- 4. tab-control 练习，牛逼！ -->
+<tab-control title="{{['衣服','裤子','鞋子']}}"
+             bind:itemClick="handleItemClick"
+></tab-control>
+
+
